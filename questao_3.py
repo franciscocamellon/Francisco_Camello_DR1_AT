@@ -37,7 +37,7 @@ class Financial_Health():
         self.expenditure = {self.wage: {self.housing: [0.3, 0, 0], self.education: [
             0.2, 0, 0], self.transportation: [0.15, 0, 0], }}
 
-   
+
 
 
     def init_class(self):
@@ -45,13 +45,14 @@ class Financial_Health():
         This function receives and orders the input data from users.
         """
         self.validate_values(
-            self.wage, 'wage', '  Digite sua renda total mensal: R$')
+            self.wage, 'wage', '  Digite sua renda total mensal: R$ ')
         self.validate_values(self.housing, 'housing',
-                             '  Digite seus gastos totais com moradia: R$')
+                             '  Digite seus gastos totais com moradia: R$ ')
         self.validate_values(self.education, 'education',
-                             '  Digite seus gastos totais com educação: R$')
+                             '  Digite seus gastos totais com educação: R$ ')
         self.validate_values(self.transportation, 'transportation',
-                             '  Digite seus gastos totais com transporte: R$')
+                             '  Digite seus gastos totais com transporte: R$ ')
+        return self.data
 
     def error(self, value):
         """
@@ -82,7 +83,7 @@ class Financial_Health():
             except Zero_Error:
                 print('Digite um número maior que zero!')
 
-        return self.data
+
 
     def process_data(self):
         """
