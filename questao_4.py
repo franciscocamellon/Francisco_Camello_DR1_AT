@@ -26,25 +26,6 @@ class Yield():
     def __init__(self):
         """
         Constructor
-        montante financeiro inicial, um percentual de rendimento por período, um valor de aporte para cada período e uma quantidade de períodos.
-
-        Valor inicial: R$ 10000
-        Rendimento por período (%): 0.54
-        Aporte a cada período: R$ 1000
-        Total de períodos: 120
-
-        Após 1 períodos(s), o montante será de R$11054.00.
-        Após 2 períodos(s), o montante será de R$12113.69.
-        Após 3 períodos(s), o montante será de R$13179.11.
-        Após 4 períodos(s), o montante será de R$14250.27.
-        Após 5 períodos(s), o montante será de R$15327.22.
-        (...)
-        Após 115 períodos(s), o montante será de R$177406.76.
-        Após 116 períodos(s), o montante será de R$179364.76.
-        Após 117 períodos(s), o montante será de R$181333.33.
-        Após 118 períodos(s), o montante será de R$183312.53.
-        Após 119 períodos(s), o montante será de R$185302.42.
-        Após 120 períodos(s), o montante será de R$187303.05.
         """
         self.pv = float
         self.i = float
