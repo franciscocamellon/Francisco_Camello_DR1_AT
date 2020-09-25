@@ -6,7 +6,7 @@
 
 ---
 # Questão 01
-## 1. Explique, com suas palavras, cada um dos quatro vetores do *Pensamento Computacional*: _Abstração, Decomposição, Reconhecimento de Padrões e Algoritmos. Use exemplos para apoiar sua argumentação.
+## 1. Explique, com suas palavras, cada um dos quatro vetores do *Pensamento Computacional*: _Abstração, Decomposição, Reconhecimento de Padrões e Algoritmos_. Use exemplos para apoiar sua argumentação.
 
 - *Abstração:* É a habilidade de visualizar os processos mais relevantes, não priorizando necessariamente os detalhes, para criar uma solução que seja válida para demais problemas de mesmo escopo.
 
