@@ -1,15 +1,15 @@
-# -*- coding: utf-8 -*-
-"""
-/***************************************************************************
-*    Questao 01                                                            *
-*        Aluno           : Francisco Alves Camello Neto                    *
-*        Disciplina      : AT - Lógica, Computação e Algoritmos            *
-*        Professor       : Carlos Pivotto                                  *
-*        Nome do arquivo : questao_01.py                                   *
-***************************************************************************/
-"""
-"""
-1. Explique, com suas palavras, cada um dos quatro vetores do
+ | | |
+:----:|:----:|:---------
+Aluno           | Francisco Alves Camello Neto                    
+Disciplina      | AT - Lógica, Computação e Algoritmos
+Professor       | Carlos Pivotto
+Nome do arquivo | questao_01.py
+
+
+
+
+##    Questao 01
+### 1. Explique, com suas palavras, cada um dos quatro vetores do
 Pensamento Computacional: Abstração, Decomposição, Reconhecimento de
 Padrões e Algoritmos. Use exemplos para apoiar sua argumentação.
 
