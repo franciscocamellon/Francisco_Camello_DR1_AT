@@ -1,17 +1,11 @@
-# -*- coding: utf-8 -*-
-"""
-/***************************************************************************
-*    Questao 02                                                            *
-*        Aluno           : Francisco Alves Camello Neto                    *
-*        Disciplina      : AT - Lógica, Computação e Algoritmos            *
-*        Professor       : Carlos Pivotto                                  *
-*        Nome do arquivo : questao_02.py                                   *
-***************************************************************************/
-"""
-"""
-Pesquise pelas linguagens de programação, tecnologias, como banco de
-dados e outras usadas por empresas de aplicações conhecidas do nosso
-cotidiano.
+- Aluno: Francisco Alves Camello Neto
+- Disciplina: AT - Lógica, Computação e Algoritmos
+- Professor: Carlos Pivotto
+- Nome do arquivo: questao_02.py
+
+---
+# Questão 02
+## Pesquise pelas linguagens de programação, tecnologias, como banco de dados e outras usadas por empresas de aplicações conhecidas do nosso cotidiano.
 
 1. Conceitualize back-end e front-end de uma aplicação e aponte as
 principais diferenças. Use exemplos de aplicações do dia a dia e até
