@@ -9,18 +9,19 @@
 ***************************************************************************/
 """
 
-import time
-
 
 class Zero_Error(Exception):
+    """
+    Handle exceptions.
+    """
 
     def __init__(self):
         super().__init__()
 
 
 class Financial_Health():
-
     """
+    This program takes an exam about your financial health.
     """
 
     def __init__(self):
@@ -36,9 +37,6 @@ class Financial_Health():
         self.report = ''
         self.expenditure = {self.wage: {self.housing: [0.3, 0, 0], self.education: [
             0.2, 0, 0], self.transportation: [0.15, 0, 0], }}
-
-
-
 
     def init_class(self):
         """
@@ -83,8 +81,6 @@ class Financial_Health():
             except Zero_Error:
                 print('Digite um número maior que zero!')
 
-
-
     def process_data(self):
         """
         This function receives and process the input data from users.
@@ -120,6 +116,7 @@ class Financial_Health():
 
     def print_result(self):
         """
+        This is a printer! This prints.
         """
         not_healthy = []
         repo = []

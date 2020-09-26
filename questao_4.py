@@ -13,14 +13,18 @@ import matplotlib.pyplot
 
 
 class Zero_Error(Exception):
+    """
+    Handle exceptions.
+    """
 
     def __init__(self):
         super().__init__()
 
 
 class Yield():
-
     """
+    This class handles with interest, yield, taxes, future values
+    and etc.
     """
 
     def __init__(self):
@@ -97,6 +101,7 @@ class Yield():
 
     def print_result(self):
         """
+        This is a printer! This prints.
         """
         print('===' * 25, '{:^63}'.format('Questão 04'), '===' * 25, sep='\n')
         data = self.process_data()
@@ -106,7 +111,7 @@ class Yield():
             periods.append(period)
             values.append(data[period])
             print('  Após {} {}, o montante será de R$ {}.'.format(
-                period + 1, 'períodos' if (period + 1) > 1 else 'período', str(round(data[period], 2)).replace('.',',')))
+                period + 1, 'períodos' if (period + 1) > 1 else 'período', str(round(data[period], 2)).replace('.', ',')))
 
         print('---' * 25,
               '{:>63}'.format('Aluno: Francisco Camello'), sep="\n")
